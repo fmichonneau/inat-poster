@@ -3,7 +3,7 @@
 
 This repository contains the code and data to generate the poster presented (for
 the first time) at the 7<sup>th</sup> North American Echinoderm Conference held
-June 1-6, in Pensacola, FL.
+June 1-6 2014, in Pensacola, FL.
 
 # About the project
 
@@ -19,7 +19,7 @@ You need:
 
 - a functional LaTeX installation with the
 [http://www.ctan.org/pkg/tikzposter](tikzposter) package;
-- [http://www.r-project.org]{R} with the following packages:
+- [http://www.r-project.org](R) with the following packages:
   * [http://cran.r-project.org/package=knitr](knitr)
   * [http://cran.r-project.org/package=ggplot2](ggplot2)
   * [https://github.com/karthik/wesanderson](wesanderson)
@@ -39,7 +39,8 @@ I used Ubuntu 14.04 to generate the files included in this repository.
 # License
 
 The content of this repository is under a Creative Commons Attribution License
-([http://creativecommons.org/licenses/by/4.0](CC-BY).
+[http://creativecommons.org/licenses/by/4.0](CC-BY).
 
-> Michonneau & Paulay, 2014. Using iNaturalist to engage the public and learn
-> more about echinoderms. DOI: [http://dx.doi.org/10.6084/m9.figshare.1040435](10.6084/m9.figshare.1040435).
+> Michonneau F. & Paulay G., 2014. Using iNaturalist to engage the public and
+> learn more about echinoderms. DOI:
+> [http://dx.doi.org/10.6084/m9.figshare.1040435](10.6084/m9.figshare.1040435).
