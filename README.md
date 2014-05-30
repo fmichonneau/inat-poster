@@ -8,7 +8,7 @@ June 1-6 2014, in Pensacola, FL.
 # About the project
 
 We started a project on
-[http://inaturalist.org/projects/echinoderms](Echinoderms) at iNaturalist to
+[Echinoderms](http://inaturalist.org/projects/echinoderms) at iNaturalist to
 gather observations worldwide, and across taxa. Our goal is to improve our
 knowledge of species distributions, variation, and biology, and to educate the
 public about the diversity of Echinoderms.
@@ -18,12 +18,12 @@ public about the diversity of Echinoderms.
 You need:
 
 - a functional LaTeX installation with the
-[http://www.ctan.org/pkg/tikzposter](tikzposter) package;
-- [http://www.r-project.org](R) with the following packages:
-  * [http://cran.r-project.org/package=knitr](knitr)
-  * [http://cran.r-project.org/package=ggplot2](ggplot2)
-  * [https://github.com/karthik/wesanderson](wesanderson)
-  * [http://f1000research.com/articles/2-191/v2](taxize)
+[tikzposter](http://www.ctan.org/pkg/tikzposter) package;
+- [R](http://www.r-project.org) with the following packages:
+  * [knitr](http://cran.r-project.org/package=knitr)
+  * [ggplot2](http://cran.r-project.org/package=ggplot2)
+  * [wesanderson](https://github.com/karthik/wesanderson)
+  * [taxize](http://f1000research.com/articles/2-191/v2)
 
 In R, after pulling the content of the repository, you should be able to just
 do:
@@ -39,8 +39,8 @@ I used Ubuntu 14.04 to generate the files included in this repository.
 # License
 
 The content of this repository is under a Creative Commons Attribution License
-[http://creativecommons.org/licenses/by/4.0](CC-BY).
+[CC-BY](http://creativecommons.org/licenses/by/4.0)
 
 > Michonneau F. & Paulay G., 2014. Using iNaturalist to engage the public and
 > learn more about echinoderms. DOI:
-> [http://dx.doi.org/10.6084/m9.figshare.1040435](10.6084/m9.figshare.1040435).
+> [10.6084/m9.figshare.1040435](http://dx.doi.org/10.6084/m9.figshare.1040435).
