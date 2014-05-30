@@ -1,5 +1,5 @@
 
-\documentclass[48pt, nnermargin=7mm, blockverticalspace=7mm, colspace=7mm]{tikzposter}\usepackage[]{graphicx}\usepackage[]{color}
+\documentclass[46pt, nnermargin=7mm, blockverticalspace=7mm, colspace=7mm]{tikzposter}\usepackage[]{graphicx}\usepackage[]{color}
 %% maxwidth is the original width if it is less than linewidth
 %% otherwise use linewidth (to make sure the graphics do not exceed the margin)
 \makeatletter
@@ -54,8 +54,17 @@
 \usepackage{fontspec}
 \setmainfont{Liberation Sans}
 \setsansfont{SourceSansPro-Regular}
+\setmonofont{Consolas}
 
-\usepackage{url}
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  citecolor=black,
+  filecolor=black,
+  urlcolor=blue
+}
+\urlstyle{sf}
 
 % can use captions outside figure environments
 \usepackage{capt-of}
@@ -89,7 +98,7 @@
 
 \begin{columns}
 
-\column{.4}
+\column{.43}
 \block{Introduction}{
 
   Echinoderms are among the most conspicuous and abundant marine
@@ -99,13 +108,14 @@
   starfish-wasting-syndrome), with important ecological consequences. In
   addition, many species are targeted by unregulated fisheries.
   
-  \vspace{.8cm}
+  \vspace{.5cm}
 
   Despite these factors, echinoderms have not received a lot of taxonomic
   attention, and many large species remain undescribed and/or poorly
-  known. Regularly, field guides illustrate undescribed species.
+  known. Regularly, field guides illustrate undescribed species, and divers
+  commonly photograph new or poorly known species.
   
-  \vspace{.8cm}
+  \vspace{.5cm}
 
   With recent technological advances, it has become increasingly easier to
   document species encountered in nature. For instance, smartphones can, with
@@ -114,50 +124,54 @@
   underwater photography much more accessible, and many divers now document the
   species they encounter by sharing their pictures on social media websites.
 
-  \vspace{.8cm}
+  \vspace{.5cm}
 
-  Our knowledge of echinoderms could therefore be improved by aggregating
-  user observations of these organisms, while potentially documenting changes in
-  abundance or geographical range through time.
-}
+  Our knowledge of echinoderms could therefore be improved by aggregating user
+  observations of these organisms, while educating the public at the same time
+  about these fascinating organisms.
 
-\column{0.3}
-\block{Number of observations per class}{
+  }
 
-\begin{center}
-\begin{knitrout}
-\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
-\includegraphics[width=.25\columnwidth]{figures/latex-abundance-per-class} 
+\column{.57}
+\block{What is iNaturalist?}{ 
 
-\end{knitrout}
-\captionof{figure}{Number of observations per class}
-\end{center}
+  Naturalist (\href{http://inaturalist.org}{http://inaturalist.org}) is a
+  website that allows users to submit observations about any species, along with
+  images, GPS coordinates and ancillary information about the habitat or natural
+  history. Once submitted the observations can be further identified by the
+  community and validated by "curators". This mechanism allows users to hone
+  their identification skills, learn about the organisms, and communicate with
+  each other. Observations in turn provide a wealth of information about
+  distribution, variation, abundance, and other aspects of natural history.
 
-\vspace{.8cm}
+  \vspace{.5cm}
 
-Large and abundant species found on the intertidal of the Western United States
-dominate the observations. However, observations of species encountered while
-snorkeling and SCUBA diving in the Caribbean and the Indo-West Pacific represent
-a large proportion of the observations.
+  We started a project on Echinoderms
+  (\href{http://inaturalist.org/projects/echinoderms}{http://inaturalist.org/projects/echinoderms})
+  to gather observations worldwide, and across taxa. Our goal is to improve our
+  knowledge of species distributions, variation, and biology, and to educate the
+  public about the diversity of Echinoderms. This platform provides a great
+  outreach tool facilitating communication between scientists and
+  naturalists. Because iNaturalist is easy to use and has applications for
+  mobile devices, it can also be used during organized citizen science
+  initiatives such as Bioblitz, or class field trips.
 
-\vspace{.8cm}
+  \vspace{.5cm}
 
-One hundred users have already contributed over 700 observations. We will
-advertise the project more widely to the SCUBA diving community and through
-citizen science initiatives.
+  This crowd-sourcing effort has the potential to greatly facilitate the
+  documentation of species diversity, occurrences, variation, changes in
+  distributions and species density (e.g., crown-of-thorns outbreaks,
+  consequences of the starfish wasting syndrome) while educating the public
+  about echinoderms
 
-}
+  \vspace{.5cm}
 
-\column{0.3}
-\block{Most recorded species}{
-\begin{center}
-\begin{knitrout}
-\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
-\includegraphics[width=.27\columnwidth]{figures/latex-top-species} 
+  Over a hundred users have already contributed 700+ observations. We will
+  advertise the project more widely to the SCUBA diving community and through
+  citizen science initiatives. We welcome everyone to submit observations or
+  help curating the observations submitted to the project. Don't hesitate to
+  join us!
 
-\end{knitrout}
-\captionof{figure}{List of the 20 species the most observed on iNaturalist}
-\end{center}
 }
 
 \end{columns}
@@ -165,50 +179,58 @@ citizen science initiatives.
 
 \begin{columns}
 
-\column{0.4}
-\block{What is iNaturalist?}{ 
+\column{0.25}
+\block{Project page}{
 
-  iNaturalist (\url{http://inaturalist.org}) is a website that allows users to
-  submit their species observations alongside with images, GPS coordinates and
-  any other information about the habitat or the natural history of the species
-  they encounter. Once submitted the observations can be identified by the
-  community and validated by ``curators''. This mechanism provides a tool for
-  users to hone their identification skills, and for scientists to validate
-  species occurrences.
-
-  \vspace{.8cm}
-
-  We started a project on Echinoderms
-  (\url{http://inaturalist.org/projects/echinoderms}) to gather observations
-  worldwide, and across taxa. Our goal is to improve our knowledge of species
-  distributions, and educate the public about the diversity of Echinoderms. This
-  platform provides a great outreach tool to facilitate communication between
-  scientists and naturalists. Because iNaturalist is easy to use and has
-  applications for mobile devices, it could be used during citizen science
-  initiatives (e.g., bioblitz) or during class field trips.
-
-  \vspace{.8cm}
-
-  We welcome everyone to submit observations or help curating the observations
-  submitted to the project. Don't hesitate to get in touch with us!
-
-}
-
-\column{0.3}
-\block{Echinoderms on iNaturalist}{
-
-\includegraphics[width=.25\columnwidth]{images/inat-echino}
+\begin{center}
+\includegraphics[width=.215\columnwidth]{images/inat-echino}
 \captionof{figure}{The Echinoderm project on iNaturalist}
+\end{center}
 
 }
 
-\column{0.3}
+\column{0.25}
 \block{User observation}{
 
-\includegraphics[width=.25\columnwidth]{images/inat-screenshot}
+\begin{center}
+\includegraphics[width=.215\columnwidth]{images/inat-screenshot}
 \captionof{figure}{Example of an user-submitted observation}
+\end{center}
 
 }
+
+\column{0.25}
+\block{Observations per class}{
+
+\begin{center}
+\begin{knitrout}
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
+\includegraphics[width=.22\columnwidth]{figures/latex-abundance-per-class} 
+
+\end{knitrout}
+\captionof{figure}{Number of observations per class}
+\end{center}
+
+\vspace{.8cm}
+
+Large and abundant species from the intertidal of the Western United States
+dominate the observations at present, reflecting the development of iNaturalist
+in California. However, underwater sightings from the Caribbean and the
+Indo-West Pacific also represent a large proportion of the observations.
+}
+
+\column{0.25}
+\block{Most recorded species}{
+\begin{center}
+\begin{knitrout}
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
+\includegraphics[width=.212\columnwidth]{figures/latex-top-species} 
+
+\end{knitrout}
+\captionof{figure}{List of the 20 species the most observed on iNaturalist}
+\end{center}
+}
+
 
 
 \end{columns}
@@ -244,6 +266,8 @@ citizen science initiatives.
   from user observations}
 \end{center}
 
+\vspace{2mm}
+
 }
 \end{columns}
 
@@ -253,14 +277,22 @@ citizen science initiatives.
 
 \block{}{
 
-  {\footnotesize
-   This poster is open-source and fully reproducible. The source code can be obtained from:
-   \url{http://github.com/fmichonneau/inat-poster/}, and can be cited using this
-   DOI. It was made possible using tikzposter, R with the packages ggplot2,
-   wesanderson, taxize.
-   }
-}
+  {\small This poster is open-source (CC-BY), fully reproducible and available
+    on Figshare (DOI:
+    \href{http://dx.doi.org/10.6084/m9.figshare.1040435}{10.6084/m9.figshare.1040435}). The
+    source code can be obtained from:
+    \href{https://github.com/fmichonneau/inat-poster/}{http://github.com/fmichonneau/inat-poster}. It
+    was made possible using the LaTeX package
+    \href{http://www.ctan.org/pkg/tikzposter}{tikzposter}, and
+    \href{http://www.r-project.org}{R} complemented with the packages
+    \href{https://github.com/hadley/ggplot2/}{ggplot2} (by Hadley Wickham),
+    \href{http://yihui.name/knitr/}{knitr} (by Yihui Xie),
+    \href{http://f1000research.com/articles/2-191/v2}{taxize} (by Scott
+    Chamberlain \& Eduard Szocs), and
+    \href{https://github.com/karthik/wesanderson}{wesanderson} (by Karthik Ram).
+  }
 
+} 
 % ---- end footer
 
 \end{document}
