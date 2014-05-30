@@ -1,0 +1,62 @@
+% Created by tikzDevice version 0.7.0 on 2014-05-29 22:20:27
+% !TEX encoding = UTF-8 Unicode
+
+\documentclass[48pt]{tikzposter}
+\renewcommand*{\familydefault}{\sfdefault}
+\nonstopmode
+
+\usepackage{tikz}
+
+\usepackage[active,tightpage,xetex]{preview}
+
+\usepackage{fontspec,xunicode}
+
+\PreviewEnvironment{pgfpicture}
+
+\setlength\PreviewBorder{0pt}
+
+\newcommand{\SweaveOpts}[1]{}  % do not interfere with LaTeX
+\newcommand{\SweaveInput}[1]{} % because they are not real TeX commands
+\newcommand{\Sexpr}[1]{}       % will only be parsed by R
+
+ % See Section 3
+% Use fancy fonts
+\usepackage{fontspec}
+\setmainfont{Liberation Sans}
+\setsansfont{SourceSansPro-Regular}
+
+\title{Using iNaturalist to gain insight into echinoderm species distributions}
+\institute{Florida Museum of Natural History, Gainesville, FL 32611} % See Section 4.1
+\author{Fran\c{c}ois Michonneau \& Gustav Paulay}
+%\titlegraphic{Logo}
+
+\usetheme{Autumn} % See Section 5
+
+
+\begin{document}
+
+\begin{tikzpicture}[x=1pt,y=1pt]
+\definecolor[named]{fillColor}{rgb}{1.00,1.00,1.00}
+\path[use as bounding box,fill=fillColor,fill opacity=0.00] (0,0) rectangle (505.89,505.89);
+\begin{scope}
+\path[clip] (  0.00,  0.00) rectangle (505.89,505.89);
+\definecolor[named]{drawColor}{rgb}{0.00,0.00,0.00}
+\definecolor[named]{fillColor}{rgb}{0.23,0.60,0.70}
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round,fill=fillColor] (403.20,236.34) rectangle (405.45,261.93);
+\definecolor[named]{fillColor}{rgb}{0.47,0.72,0.77}
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round,fill=fillColor] (403.20,267.04) rectangle (411.47,292.63);
+\definecolor[named]{fillColor}{rgb}{0.92,0.80,0.16}
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round,fill=fillColor] (403.20,297.75) rectangle (420.63,323.34);
+\definecolor[named]{fillColor}{rgb}{0.88,0.69,0.00}
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round,fill=fillColor] (403.20,328.46) rectangle (431.76,354.05);
+\definecolor[named]{fillColor}{rgb}{0.95,0.10,0.00}
+
+\path[draw=drawColor,line width= 0.4pt,line join=round,line cap=round,fill=fillColor] (403.20,359.16) rectangle (451.60,384.75);
+\end{scope}
+\end{tikzpicture}
+
+\end{document}
