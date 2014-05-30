@@ -38,7 +38,7 @@ I used Ubuntu 14.04 to generate the files included in this repository.
 
 # License
 
-The content of this repository is under a Creative Commons Attribution Licence
+The content of this repository is under a Creative Commons Attribution License
 ([http://creativecommons.org/licenses/by/4.0](CC-BY).
 
 > Michonneau & Paulay, 2014. Using iNaturalist to engage the public and learn
