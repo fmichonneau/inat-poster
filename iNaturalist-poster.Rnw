@@ -92,7 +92,7 @@ read_chunk('code/poster-code.R')
 \column{.57}
 \block{What is iNaturalist?}{ 
 
-  Naturalist (\href{http://inaturalist.org}{http://inaturalist.org}) is a
+  iNaturalist (\href{http://inaturalist.org}{http://inaturalist.org}) is a
   website that allows users to submit observations about any species, along with
   images, GPS coordinates and ancillary information about the habitat or natural
   history. Once submitted the observations can be further identified by the
